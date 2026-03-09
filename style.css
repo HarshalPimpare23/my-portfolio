@@ -1,22 +1,20 @@
-@layer base {
-  :root {
-    --primary: #5a87b2;
-    --primary-gradient: linear-gradient(135deg, #5a87b2 0%, #4a7299 100%);
-    --bg-main: #fafafa;
-    --bg-card: #ffffff;
-    --text-main: #333333;
-    --text-muted: #64748b;
-    --border-color: #e2e8f0;
-  }
-  .dark {
-    --primary: #d946ef;
-    --primary-gradient: linear-gradient(135deg, #d946ef 0%, #8b5cf6 100%);
-    --bg-main: #121212;
-    --bg-card: #1e1e1e;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --border-color: #334155;
-  }
+:root {
+  --primary: #5a87b2;
+  --primary-gradient: linear-gradient(135deg, #5a87b2 0%, #4a7299 100%);
+  --bg-main: #fafafa;
+  --bg-card: #ffffff;
+  --text-main: #333333;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+}
+.dark {
+  --primary: #d946ef;
+  --primary-gradient: linear-gradient(135deg, #d946ef 0%, #8b5cf6 100%);
+  --bg-main: #121212;
+  --bg-card: #1e1e1e;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
 }
 .bg-primary-custom {
   background: var(--primary-gradient);
